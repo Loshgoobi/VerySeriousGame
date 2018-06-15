@@ -41,32 +41,48 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questList:
-  - title: Hello World
+  - title: En retard !
     id: 1
     progress: 1
-    description: This is Quest for testing around!
-    hint: 'Hint: Just leave the town and come back.'
-    congratulations: Yay, you completed your first quest.
+    description: "Vous arrivez en retard et Marine semble f\xE2ch\xE9e."
+    hint: "Sharon saura vous aider \xE0 l'obtenir."
+    congratulations: Attention! 3 retard et vous aurez un avertissement!
     summary: 
     nextQuest: 2
-    questObjective: Leave Third Floor
+    questObjective: Billet de retard
     questObjectiveCount: 0
     questObjectiveRequirement: 1
     expReward: 0
     goldReward: 0
     itemReward: 
-  - title: Chain Quest
+  - title: En cours de route.
     id: 2
     progress: 0
-    description: This is Quest for testing around! Do it again 5 times, its a chain
-      quest.
-    hint: 'Hint: Just leave the town and come back.'
-    congratulations: Yay, you completed your first quest.
+    description: "Vous \xEAtes pass\xE9 \xE0 l'admin chercher un billet, il faut d\xE9sormais
+      l'apporter au professeur."
+    hint: "Votre salle de cours se situe juste devant l'entr\xE9e. (A10)"
+    congratulations: Hmmm?
     summary: 
-    nextQuest: 0
-    questObjective: Leave Town 1
+    nextQuest: 3
+    questObjective: Allez en classe
     questObjectiveCount: 0
-    questObjectiveRequirement: 5
+    questObjectiveRequirement: 1
+    expReward: 0
+    goldReward: 0
+    itemReward: 
+  - title: "Le caf\xE9 ..."
+    id: 3
+    progress: 0
+    description: "J'ai besoin d'un caf\xE9 sinon je vais m'endormir et il n'y aura
+      pas de cours!"
+    hint: La salle de pause! (voir les escalier)
+    congratulations: "Merci! mais les cours sont d\xE9ja fini... tu as mis un sacr\xE9
+      temp pour aller cherher mon caf\xE9..."
+    summary: 
+    nextQuest: 4
+    questObjective: Cafe
+    questObjectiveCount: 0
+    questObjectiveRequirement: 1
     expReward: 0
     goldReward: 0
     itemReward: 

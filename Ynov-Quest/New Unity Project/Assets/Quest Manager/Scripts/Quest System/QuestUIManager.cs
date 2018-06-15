@@ -97,7 +97,7 @@ public class QuestUIManager : MonoBehaviour {
 
 	void Update()
 	{
-		if (Input.GetKeyDown(KeyCode.A))
+		if (Input.GetKeyDown(KeyCode.R))
 		{
 			questLogPanel = !questLogPanel;//switch
 			ShowQuestLogPanel();

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366785, g: 0.48427147, b: 0.5645235, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -822,10 +822,6 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.size
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 472420, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
       propertyPath: m_LocalPosition.x
       value: 1.4418945
@@ -856,113 +852,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 472420, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
       propertyPath: m_RootOrder
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].title
-      value: En cours de route.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].id
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].description
-      value: "Vous \xEAtes pass\xE9 \xE0 l'admin chercher un billet, il faut d\xE9sormais
-        l'apporter au professeur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].hint
-      value: "Votre salle de cours se situe juste devant l'entr\xE9e."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].congratulations
-      value: Bravo, et n'arrivez plus en retard sous peine de punition.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].questObjective
-      value: "D\xE9p\xEAchez-vous de rejoindre votre salle de cours."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].questObjectiveRequirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].title
-      value: En cours de route.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].id
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].description
-      value: "Vous \xEAtes pass\xE9 \xE0 l'admin chercher un billet, il faut d\xE9sormais
-        l'apporter au professeur."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].hint
-      value: "Votre salle de cours se situe juste devant l'entr\xE9e."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].congratulations
-      value: Bravo, et n'arrivez plus en retard sous peine de punition.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].questObjective
-      value: "D\xE9p\xEAchez-vous de rejoindre votre salle de cours."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].questObjectiveRequirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].progress
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[1].nextQuest
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].title
-      value: En retard !
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].id
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].progress
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].description
-      value: "Vous arrivez en retard et Marine semble f\xE2ch\xE9e."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].hint
-      value: "Sharon saura vous aider \xE0 l'obtenir."
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].congratulations
-      value: Bravo.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].nextQuest
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].questObjective
-      value: Allez chercher un billet de retard.
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[0].questObjectiveRequirement
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 11433146, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
-      propertyPath: questList.Array.data[2].nextQuest
-      value: 2
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 827d674e2f4c7ae4ea3762b06aa66f6d, type: 2}
@@ -1394,7 +1284,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalPosition.x
-      value: 25.712856
+      value: 14.84
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalPosition.y
@@ -1402,23 +1292,23 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -11.62334
+      value: -7.82
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0.7744069
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.6326879
       objectReference: {fileID: 0}
     - target: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
       propertyPath: m_RootOrder
@@ -1802,87 +1692,6 @@ Transform:
   - {fileID: 63469457}
   m_Father: {fileID: 1757085570}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &508669183
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 508669187}
-  - component: {fileID: 508669186}
-  - component: {fileID: 508669185}
-  - component: {fileID: 508669184}
-  m_Layer: 0
-  m_Name: Main Camera
-  m_TagString: MainCamera
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!81 &508669184
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 508669183}
-  m_Enabled: 1
---- !u!124 &508669185
-Behaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 508669183}
-  m_Enabled: 1
---- !u!20 &508669186
-Camera:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 508669183}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_NormalizedViewPortRect:
-    serializedVersion: 2
-    x: 0
-    y: 0
-    width: 1
-    height: 1
-  near clip plane: 0.3
-  far clip plane: 1000
-  field of view: 60
-  orthographic: 0
-  orthographic size: 5
-  m_Depth: -1
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_RenderingPath: -1
-  m_TargetTexture: {fileID: 0}
-  m_TargetDisplay: 0
-  m_TargetEye: 3
-  m_HDR: 1
-  m_AllowMSAA: 1
-  m_AllowDynamicResolution: 0
-  m_ForceIntoRT: 0
-  m_OcclusionCulling: 1
-  m_StereoConvergence: 10
-  m_StereoSeparation: 0.022
---- !u!4 &508669187
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 508669183}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66, y: 1.24, z: -0.95}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1834984969}
-  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &518140148
 GameObject:
@@ -3631,15 +3440,15 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1112541564}
-  m_LocalRotation: {x: -0, y: -0.99907017, z: -0, w: 0.043113425}
-  m_LocalPosition: {x: 24.738544, y: 0.8425677, z: -6.6650763}
+  m_LocalRotation: {x: -0, y: -0.7867821, z: -0, w: -0.61723095}
+  m_LocalPosition: {x: 12.48, y: 0.8425677, z: -7.3}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1436682400}
   - {fileID: 176845249}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -175.05801, z: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: -256.228, z: 0}
 --- !u!1 &1133475385
 GameObject:
   m_ObjectHideFlags: 0
@@ -3759,12 +3568,12 @@ Light:
   serializedVersion: 8
   m_Type: 1
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 1.5
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -3791,13 +3600,13 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1151829474}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalRotation: {x: 0.7080934, y: 0, z: 0, w: 0.7061188}
+  m_LocalPosition: {x: 0, y: 20, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 90.16, y: 0, z: 0}
 --- !u!1 &1170332108
 GameObject:
   m_ObjectHideFlags: 0
@@ -4682,7 +4491,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4813913151475072, guid: d5dd24624a09929489f1cd763b226393, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d5dd24624a09929489f1cd763b226393, type: 2}
@@ -4748,6 +4557,61 @@ Transform:
   m_Father: {fileID: 214177977}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1436123218
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1436123220}
+  - component: {fileID: 1436123219}
+  - component: {fileID: 1436123221}
+  m_Layer: 0
+  m_Name: Allez en cours
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &1436123219
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436123218}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &1436123220
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436123218}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.111, y: 1.196, z: -4.317}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1436123221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1436123218}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aafa066f82cd634eb95f1acf42f9104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Allez en classe
+  itemID: 1
 --- !u!1 &1436682399
 GameObject:
   m_ObjectHideFlags: 0
@@ -5246,8 +5110,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b91b8c4bb04c22744a258848010279c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  availableQuestIDs: 
-  receivableQuestIDs: 02000000
+  availableQuestIDs: 03000000
+  receivableQuestIDs: 0200000003000000
   QuestMarker: {fileID: 73636549}
   theImage: {fileID: 1390973737}
   pressSpace: {fileID: 0}
@@ -5342,7 +5206,7 @@ Transform:
   - {fileID: 1753405994}
   - {fileID: 73636550}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -95.897, z: 0}
 --- !u!1 &1586330318
 GameObject:
@@ -5756,6 +5620,7 @@ GameObject:
   - component: {fileID: 1720318508}
   - component: {fileID: 1720318507}
   - component: {fileID: 1720318506}
+  - component: {fileID: 1720318512}
   - component: {fileID: 1720318505}
   - component: {fileID: 1720318504}
   m_Layer: 0
@@ -5895,8 +5760,22 @@ Transform:
   - {fileID: 1317076077}
   - {fileID: 224217416}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: -265.74, z: 0}
+--- !u!114 &1720318512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 114186597072421556, guid: 53218d06d08e17e478cf3379431a9960,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1720318503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2aafa066f82cd634eb95f1acf42f9104, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemName: Billet de retard
+  itemID: 0
 --- !u!1 &1739441426
 GameObject:
   m_ObjectHideFlags: 0
@@ -6207,10 +6086,6 @@ Transform:
   m_Father: {fileID: 1563321851}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1834984969 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 408730, guid: 7737647c22c1fc64a88d5cd030c352ce, type: 2}
-  m_PrefabInternal: {fileID: 341077308}
 --- !u!1 &1842105772
 GameObject:
   m_ObjectHideFlags: 0
@@ -6865,6 +6740,52 @@ Transform:
   m_Father: {fileID: 1011340502}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2095944459
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 28.74276
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.8425677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -11.518235
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071069
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70710677
+      objectReference: {fileID: 0}
+    - target: {fileID: 4876326716575186, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1954134360505040, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+      propertyPath: m_Name
+      value: Leave Third Floor
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 8b98ae61a7b34f845b4105a07aa48d23, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2108877808
 GameObject:
   m_ObjectHideFlags: 0
@@ -7025,7 +6946,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 484346, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_RootOrder
-      value: 5
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 22499866, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_AnchorMin.y
@@ -7041,7 +6962,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22499866, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -11.243263
       objectReference: {fileID: 0}
     - target: {fileID: 22499866, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_SizeDelta.x
@@ -7049,7 +6970,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22499866, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22.486526
       objectReference: {fileID: 0}
     - target: {fileID: 22418062, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_AnchorMin.y
@@ -7065,7 +6986,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22418062, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -11.243263
       objectReference: {fileID: 0}
     - target: {fileID: 22418062, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_SizeDelta.x
@@ -7073,7 +6994,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22418062, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22.486526
       objectReference: {fileID: 0}
     - target: {fileID: 22458124, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_AnchorMin.y
@@ -7089,7 +7010,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22458124, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -11.243263
       objectReference: {fileID: 0}
     - target: {fileID: 22458124, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_SizeDelta.x
@@ -7097,7 +7018,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22458124, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 22.486526
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b5e52d588e015204f9a58dec26b2ddb2, type: 2}
